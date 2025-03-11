@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDYP3B2Z7TYRJ4j9qH4FbpAbHZGT25vPbQ")
+genai.configure(api_key="API KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def get_user_input():
